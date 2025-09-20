@@ -1,4 +1,4 @@
-import { DownloadHelper, DownloadObject, DownloadUtils } from 'download-helper/download-helper';
+import { DownloadHelper, DownloadObject, DownloadUtils } from 'download-helper/download-helper.js';
 
 /**
  * ダウンローダーの管理クラス
