@@ -16,16 +16,5 @@ javascript:import("https://nomlasvrc.github.io/fanbox-downloader/fanbox-download
 - ファイル表示のリンクで`download`属性が機能してない（ファイル名重複時に元ファイル名に戻せない）
 
 ### fork後の変更点
-- 対応するURLを少し増やした
-- 投稿毎にフォルダ分けしたZIPでダウンロードするよ
-- 投稿の文章とかの情報もそれっぽく保存
-- コードが長くなったから外部から読み込むようにした
-
-### 開発用TIPS
-
-- tsコンパイル
-
-```bash
-# yarn run build
-npm run build
-```
+- 待機時間を長くした
+- 自動でビルドするようにした
