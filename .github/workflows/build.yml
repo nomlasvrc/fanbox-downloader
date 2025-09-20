@@ -22,6 +22,12 @@ jobs:
           npm ci
           npm run build
 
+      - name: Upload build artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
   deploy:
     needs: build
 
