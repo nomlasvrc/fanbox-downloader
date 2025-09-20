@@ -1,0 +1,3 @@
+[submodule "download-helper"]
+	path = download-helper
+	url = https://github.com/furubarug/download-helper.git
